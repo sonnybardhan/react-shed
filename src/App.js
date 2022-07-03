@@ -1,5 +1,11 @@
+import TipCalculator from './TipCalculator';
+
 function App() {
-  return <div className='App'>hello world</div>;
+  return (
+    <div className='App'>
+      <TipCalculator />
+    </div>
+  );
 }
 
 export default App;
