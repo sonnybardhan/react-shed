@@ -1,24 +1,48 @@
-*{
-  box-sizing: border-box;
-  margin: 0 auto;
-  padding: 0;
+#root {
+  background-color: lightgrey;
+  text-align: center;
+}
+h1{
+  margin-bottom: 0;
 }
 
-body {
-  background-color: antiquewhite;
+button, input[type="button"]{
+  display: block;
+  margin: 0 10px 10px auto;
+  cursor: pointer;
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 8px;
+  background-color: #02203c;;
+  color: white;
+}
+
+.board{
   display: flex;
-  height: 100vh;
+  flex-wrap: wrap;
   justify-content: center;
-  align-items: center;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  gap: 10px;
+  padding: 10px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.tile {
+  flex-basis: 40%;
+  border: 1px solid black;
+  width: 20px;
+  height: 20px;
+  background-color: white;
 }
+
+.red {
+  background-color: red;
+}
+.green {
+  background-color: green;
+}
+.blue {
+  background-color: blue;
+}
+.yellow {
+  background-color: yellow;
+}
+
