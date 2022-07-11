@@ -1,5 +1,11 @@
+import CryptoPrices from './CryptoPrices';
+
 function App() {
-  return <div className='App'>hello world</div>;
+  return (
+    <div className='App'>
+      <CryptoPrices />
+    </div>
+  );
 }
 
 export default App;
