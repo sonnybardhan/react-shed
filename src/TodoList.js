@@ -6,6 +6,9 @@ export const TodoList = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+
+    if (!todo) return;
+
     const newTodo = {
       task: todo,
       id: Math.random() * 999,
@@ -60,6 +63,7 @@ export const TodoList = () => {
                 onClick={() => handleComplete(todo.id)}
                 style={{
                   width: '100%',
+                  textDecoration: todo.complete && 'line-through',
                 }}
               >
                 {todo.task}
