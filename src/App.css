@@ -1,39 +1,13 @@
-.App {
-  text-align: center;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+body{
+  padding: 2rem;
+  background-color: azure;
+  height: 100vh;
+  margin: 2rem auto;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-#root {
-  display: flex;
-  /* height: 100vh; */
-  /* width: auto; */
-  background: lightgrey;
-  width: fit-content;
-  padding: 10px;
-  border-radius: 10px;
-}
-
-label {
-  display: block;
-  font-weight: bold;
-}
-
-input{
-  display: block;
-  width: 100%;
-  margin-bottom: 10px;
-}
-
-p{
-  text-align: right;
 }

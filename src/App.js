@@ -1,12 +1,7 @@
 import './App.css';
-import TipCalculator from './TipCalculator';
 
 function App() {
-  return (
-    <div className='App'>
-      <TipCalculator />
-    </div>
-  );
+  return <div className='App'>hello</div>;
 }
 
 export default App;
